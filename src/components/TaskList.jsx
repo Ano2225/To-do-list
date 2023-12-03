@@ -13,11 +13,16 @@ const TaskList = ({task, deleteTask, toggleCheck}) => {
                 {task.taskName}
                 </p>
         </div>
+        <div className='items'>
+       
         <MdDeleteSweep 
         className="delete-icon"
         onClick={() => deleteTask(task.taskName)}
         />
+        </div>
+       
     </li>
+    
   )
 }
 

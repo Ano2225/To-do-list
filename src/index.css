@@ -122,6 +122,9 @@ input[type='checkbox'] {
   padding: 5px;
   display: block;
 }
+
+
+
 .delete-icon:hover {
   background: #3d79b1;
   transition: 0.3s;

@@ -16,13 +16,14 @@ const TaskInput = ({addTask}) => {
     }
 
   return (
-   <form type="text" className='inputField' onSubmit={handleAddTask}>
+   <form  className='inputField' onSubmit={handleAddTask}>
     <input type="text"
     value={task}
      placeholder='Ajouter une tache'
      onChange={handleInputChange}
       />
     <button>+</button>
+
    </form>
   )
 }
